@@ -1,0 +1,1199 @@
+
+body{
+    margin: 0;
+}
+
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 77px;
+    background-color: black;
+    color: #fff;
+    font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.head-explore{
+    width: 120px;
+    height: 100%;
+    background-color: black;
+    float: left;
+   
+}
+.explore-text{
+    margin-left: 32px;
+    margin-top: 30px;
+}
+
+
+
+.head-search{
+    width: 220px;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    float: left;
+}
+.search-text{
+    width: 190px;
+    height: 30px;
+    background-color: black;
+    margin-top: 25px;
+    margin-left: 25px;
+    color: #fff;
+    border-width: thin;
+    border-bottom-width: thin;
+}
+
+.head-logo{
+    width:680px;
+    height: 100%;
+    /* background-color: brown; */
+    float: left;
+}
+.top-logo{
+    width: 75px;
+    height: 50px;
+    margin-top: 17px;
+    margin-left: 361px;
+}
+
+
+.head-newsevents{
+    width: 170px;
+    height: 100%;
+    float: left;
+    
+}
+
+.newsevents-text{
+    margin-top: 35px;
+    margin-left: 5px;
+}
+
+.head-multimedia{
+    width: 170px;
+    height: 100%;
+    float: left;
+
+}
+.multimedia-test{
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.head-nasalive{
+
+    width: 156px;
+    height: 100%;
+    float: left;
+}
+.nasa-text{
+    margin-top: 35px;
+    margin-left: 20px;
+    float: left;
+
+}
+
+.live-button{
+    margin-top: 40px;
+    margin-left: 2px;
+    background-color: black;
+    color: #fff;
+    border-color: red;
+    border-width: thin;
+    border-radius: 6px;
+    font-family: 'inter', sans-serif;
+}
+.live-button:hover{
+    background-color: red;
+}
+
+
+.imagefromsky{
+    width: 100%;
+   
+    float: left;
+    background-image: url(1-point-reyes-noaa.webp);
+    background-repeat: no-repeat;
+    max-width: 3000px; 
+    position: relative;
+     background-size: cover; 
+    min-height: 100vh;
+    background-image: linear-gradient(65.99deg, #000 0, transparent 99.04%) ,url(1-point-reyes-noaa.webp);
+
+
+}
+.fromsky{
+    width: 100%;
+    filter: brightness(60%);
+    float: left;
+    
+    
+}
+
+.risingfaster{
+    margin-top: 220px;
+    width: 700px;
+    height: 282px;
+ 
+    float: left;
+    padding-left: 20px;
+    line-height: 1.65em;
+    
+}
+.risingtext{
+    color: #fff;
+    font-size: 65px;
+    margin-top: 23px;
+    font-family: "inter", sans-serif;
+}
+
+.risingsentance{
+    color: #fff;
+    font-size: 16px;
+    font-family: "Public Sans Web", sans-serif;
+}
+
+.information a{
+    width: 280px;
+    height: 40px;
+    background-color: rgb(226, 56, 56);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 26px;
+    display: inline-block;
+    /* padding-left: 33px; */
+    padding-top: 5px;
+    /* font-family: "inter"; */
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 50px;
+
+}
+
+
+.information:hover a{
+    background-color: rgb(255, 0, 0);
+
+}
+
+.skyimagebottom{
+    width: 100%;
+    height: 150px;
+
+    margin-top: 600px;
+    font-family: "dm-mono";
+}
+
+.skyimagebottom hr{
+    margin: 10px;
+    
+}
+
+
+.musat{
+    width: 375px;
+    height: 100%;
+ 
+    float: left;
+
+}
+
+.musattop{
+    width: 100%;
+    height: 50%;
+   
+}
+
+.musatbottom{
+    width: 100%;
+    height: 50%;
+}
+.musattoptext{
+    color: #fff;
+    margin-left: 15px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.musatbottomlink{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 15px;
+
+}
+
+.nisar{
+    width: 375px;
+    height: 100%;
+    float: left;
+
+}
+
+
+.nisartop{
+    height: 50%;
+    width: 100%;
+}
+
+.nisartoptext{
+    color: #fff;
+    margin-left: 15px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.nisarbottom{
+    width: 100%;
+    height: 50%;
+
+}
+
+.nisarbottomlink{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 15px;
+
+}
+
+.blueflux{
+
+    width: 375px;
+    height: 100%;
+    float: left;
+}
+
+.bluefluxtop{
+    width: 100%;
+    height: 50%;
+}
+.bluefluxbottom{
+    width: 100%;
+    height: 50%;
+}
+.bluefluxtext{
+    color: #fff;
+    margin-left: 15px;
+    font-size: 15px;
+    margin-top: 30px;
+
+}
+.bluefluxlink{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 15px;
+
+}
+
+
+.newsmaindiv{
+    
+    height: 650px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    margin-top: 670px;
+
+}
+.newssubdiv{
+    width: 100%;
+    height: 100%;
+}
+.newsheader{
+    height: 20%;
+    width: 100%;
+}
+
+.newsmiddle{
+    height: 60%;
+    width: 100%;
+    color: #fff;
+    
+
+}
+
+.newsbottom{
+    height: 20%;
+    width: 100%;
+}
+
+.leftheader{
+    width: 50%;
+    height: 100%;
+    float: left;
+    font-family: "inter", sans-serif;
+    font-size: 27px;
+}
+
+.rightheader{
+    width: 50%;
+    height: 74px;
+    padding-top: 52px;
+    float: left;
+    color: #000;
+}
+
+.morenews{
+    margin-left: 340px;
+    margin-top: 100px;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #000000;
+}
+
+.leftmiddlenews{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-image:  linear-gradient(65.99deg, #000 0, transparent 99.04%), url(leftnews.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.rightmiddlenews{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.leftmiddle{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-image: linear-gradient(65.99deg, #000 0, transparent 99.04%),url(leftrightnews.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+.rightmiddle{
+    width: 46%;
+    height: 100%;
+    float: left;
+    margin-left: 2px;
+
+}
+
+.topright{
+    height: 48%;
+    margin-left: 10px;
+    background-image: linear-gradient(65.99deg, #000 0, transparent 99.04%),url(righttop.webp);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bottomright{
+    height: 48%;
+    margin-left: 10px;
+    background-image:  linear-gradient(65.99deg, #000 0, transparent 99.04%),url(rightbottom.webp);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+
+.leftmiddlenews h1{
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 25px;
+    margin-top: 5px;
+    font-family: "Public Sans Web", sans-serif;
+}
+.leftmiddlenews p{
+    margin-top: 285px;
+    margin-left: 25px;
+
+}
+
+.leftmiddle h1{
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: "Public Sans Web", sans-serif;
+
+    margin-top: 0px;
+    margin-left: 25px;
+
+}
+
+.leftmiddle p{
+    margin-left: 24px;
+    margin-top: 255px;
+}
+
+.topright p{
+    margin-top: 0px;
+    margin-left: 10px;
+
+}
+.topright h1{
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: "Public Sans Web", sans-serif;
+}
+.bottomright h1{
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: "Public Sans Web", sans-serif;
+
+}
+.bottomright p{
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.newssubdiv a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.bottomone{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+
+.bottomtwo{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+
+.bottomthree{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+
+.bottomfour{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.oneleft{
+    width: 30%;
+    height: 70%;
+    margin-top: 5%;
+    float: left;
+    
+}
+.oneleft img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.oneright{
+    width: 70%;
+    height: 70%;
+    margin-top: 5%;
+    float: left;
+}
+
+
+.twoleft{
+    width: 30%;
+    height: 70%;
+    margin-top: 5%;
+    float: left;
+}
+
+
+.twoleft img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.tworight{
+    width: 70%;
+    height: 70%;
+    margin-top: 5%;
+    float: left;
+}
+
+
+
+.threeleft{
+    width: 30%;
+    height: 70%;
+    margin-top: 5%;
+    float: left;
+}
+
+.threeleft img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.threeright{
+    width: 70%;
+    height: 70%;
+
+    margin-top: 5%;
+    float: left;
+}
+
+
+.fourleft{
+    width: 30%;
+    height: 70%;
+    margin-top: 5%;
+    float: left;
+}
+
+.fourleft img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.fourright{
+    width: 70%;
+    height: 70%;
+    margin-top: 5%;
+    float: left;
+}
+
+.newsbottom h6{
+
+    margin-bottom: 20px;
+    font-size: 15px;
+    margin-top: 1px;
+    color: #3e3a3a;
+    margin-left: 10px;
+}
+.newsbottom p{
+    margin-top: 1px;
+    color: #000;
+}
+
+.largenews{
+    background: linear-gradient(65.99deg, #000 0, transparent 99.04%),url(satellite.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+}
+
+.largenewscontent{
+    width: 50%;
+    height: 50%;
+    margin-top: 350px;
+    float: left;
+    padding-left: 90px;
+    color: white;
+}
+
+.largenewscontent h2{
+font-size: 52px;
+font-family: "inter", sans-serif;
+
+}
+
+.largenewscontent p{
+
+    line-height: 30px;
+    font-size: 17px;
+}
+.largenewscontent a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "inter";
+    color: #fff;
+}
+
+
+.universe{
+    width: 100%;
+    height: 750px;
+}
+
+.universeheading{
+    width: 50%;
+    height: 15%;
+    float: left;
+   
+}
+.universeheading h2{
+    margin-top: 70px;
+    margin-left: 100px;
+    font-size: 40px;
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+
+}
+
+.universediscover{
+    width: 50%;
+    height: 163px;
+    float: left;
+    padding-top: 38px;
+
+}
+
+.universediscover a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "inter";
+    
+    margin-left: 520px;
+    margin-top: 70px;
+    padding-top: 1px;
+    color: black;
+}
+
+.fourimagesdiv{
+    width: 80%;
+    height: 470px;
+    margin-top: 0px;
+    margin-left: 10%;
+}
+
+.firstinfour{
+    width: 23.5%;
+    height: 100%;
+    float: left;
+    background-image: url(fourone.webp);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.secondinfour{
+    width: 23.5%;
+    height: 100%;
+    float: left;
+    margin-left: 2%;
+    background-image: url(fourtwo.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.thirdinfour{
+    width: 23.5%;
+    height: 100%;
+    float: left;
+    margin-left: 2%;
+    background-image: url(fourthree.webp);
+    background-size: cover;
+    background-position: center;
+
+
+}
+.fourthinfour{
+    width: 23.5%;
+    height: 100%;
+    background-color: rgb(31, 22, 10);
+    float: left;
+    margin-left: 2%;
+    background-image: url(fourfour.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fourimagesdiv h3{
+
+    margin-top: 400px;
+    margin-left: 34px;
+    font-weight: bold;
+    font-size: 33px;
+    color: #fff;
+
+}
+
+.earthinformation{
+    width: 100%;
+    height: 750px;
+    background-image: linear-gradient(65.99deg, #000 0, transparent 99.04%) ,url(earthinformationcenter.webp);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.informationcontent{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.informationcontent h1{
+    margin-top: 104px;
+    margin-left: 141px;
+    font-size: 78px;
+    color: #fff;
+    font-family: "inter", sans-serif;
+}
+
+.informationcontent p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    margin-left: 141px;
+    margin-top: 1px;
+    font-family: "Public Sans Web", sans-serif;
+}
+
+.informationcontent a{
+    margin-left: 141px;
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "inter";
+    font-weight: bold;
+
+}
+
+.imageofdaymain{
+    width: 100%;
+    height: 730px;
+   /* float: left; */
+}
+
+.daydiscription{
+    width: 30%;
+    height: 75%;
+    margin-left: 10%;
+    margin-top: 5%;
+    float: left;
+
+}
+
+.dayimage{
+    width: 50%;
+    height: 75%;
+    background-color: rgb(239, 239, 234);
+    margin-top: 5%;
+    float: left;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.daydiscription h3{
+    font-family: "dm-mono";
+    font-style: normal;
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1em;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+
+.daydiscription h1{
+    margin-top: 0px;
+    font-size: 45px;
+    /* margin-block-start: 0.83em; */
+    /* margin-block-end: 0.83em; */
+    /* margin-inline-start: 0px; */
+    /* margin-inline-end: 0px; */
+    font-weight: bold;
+    /* unicode-bidi: isolate; */
+
+}
+
+.daydiscription h2{
+    margin-top: 0px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.daydiscription p{
+
+line-height: 30px;
+/* font-weight: bold; */
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.daydiscription a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+.dayimage img{
+    object-fit: cover;
+    height: 100%;
+    width: 50%;
+
+}
+
+.explore{
+    width: 100%;
+    height: 550px;
+    background-color: aquamarine;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(65.99deg, #000 0, transparent 99.04%) ,url(explore.webp);
+    
+}
+
+.exploresub{
+    width: 40%;
+    height: 75%;
+
+    margin-top: 0px;
+    margin-left: 100px;
+    float: left;
+    color: #fff;
+
+    h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        line-height: 50px;
+
+    }
+    p{
+        font-size: 20px;
+        float: left;
+        margin-bottom: 0;
+        padding-bottom: 0px;
+    }
+    a{
+        margin-top: 00px;
+        font-size: 25px;
+        padding-bottom: px;
+        text-decoration: #000;
+        color: white;
+    }
+}
+
+.explorehead{
+    width: 100%;
+    height: 30%;
+    padding-top: 10%;
+    font-size: 2rem;
+    line-height: 1.1em;
+
+}
+.exploremid{
+    width: 100%;
+    height: 30%;
+    margin-top: 40px;
+    
+}
+
+.explorebottom{
+    width: 100%;
+    height: 10%;
+}
+
+.explorebottom{
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+
+.moretopics{
+    width: 100%;
+    height: 700px;
+    
+    
+}
+
+.headmoretopic{
+    width: 100%;
+    height: 15%;
+    margin-top: 5%;
+    margin-left: 150px;
+    font-size: 30px;
+    font-family: "inter", sans-serif;
+ 
+
+}
+
+.totalfourmoretopic{
+    width: 80%;
+    height: 450px;
+    margin-left: 10%;
+    h3{
+        color: #fff;
+        margin-top: 380px;
+        margin-left: 20px;
+        font-size: 27px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+.onemoretoic{
+    width: 23.5%;
+    height: 100%;
+    float: left;
+    background: linear-gradient(65.99deg, #000 0, transparent 99.04%),url(technology.webp);
+    background-position: center;
+    background-size: cover;
+
+}
+.twomoretoic{
+    width: 23.5%;
+    height: 100%;
+    float: left;
+    margin-left: 2%;
+    background: linear-gradient(65.99deg, #000 0, transparent 99.04%),url(aeronotics.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.threemoretoic{
+    width: 23.5%;
+    background-color: #440d0d;
+    height: 100%;
+    float: left;
+    margin-left: 2%;
+    background: linear-gradient(65.99deg, #000 0, transparent 99.04%),url(humansinspace.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.fourmoretoic{
+    width: 23.5%;
+    background-color: #8c7c7c;
+    height: 100%;
+    float: left;
+    margin-left: 2%;
+    background: linear-gradient(65.99deg, #000 0, transparent 99.04%),url(oursolarsystem.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.footer{
+
+    width: 100%;
+    height: 600px;
+    background-color: #000;
+    float: left;
+}
+.subfooter{
+    margin: 5%;
+    float: left;
+    width: 90%;
+    height: 80%;
+}
+
+.footerone{
+    width: 100%;
+    height: 20%;
+    img{
+        width: 75px;
+    }
+}
+
+.footertwo{
+    width: 100%;
+    height: 55%;
+    a{
+        text-decoration: none;
+        font-size: 17px;
+        line-height: 28px;
+        margin-left: 10px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+    }
+
+    h1{
+        font-size: 25px;
+        font-family: sans-serif;
+        color: #ffffff;
+        margin-left: 10px;
+    }
+    p{
+        color: #d9d7d7;
+        margin-left: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    button{
+        border-color: red;
+        border-radius: 4px;
+        color: white;
+        background-color: black;
+    
+    }
+    button:hover{
+        background-color: red;
+
+    }
+}
+
+.footerthree{
+    width: 100%;
+    height: 25%;
+  
+
+    hr{
+        height: 1px;
+        border:none;
+        background-color: #aaa2a2;
+    }
+    a{
+        color: #aca9a9;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: sans-serif;
+        margin-left: 29px;
+    }
+    h3{
+        margin-left: 28px;
+    }
+}
+.onefoot-hori{
+    width: 35%;
+    height: 100%;
+    float:left;
+}
+
+.twofoot-hori{
+    width: 15%;
+    height: 100%;
+    float:left;
+}
+.threefoot-hori{
+    width: 15%;
+    height: 100%;
+    float:left;
+}
+.fourfoot-hori{
+    width: 15%;
+    height: 100%;
+    float:left;
+}
+
+.fivefoot-hori{
+    width: 20%;
+    height: 100%;
+    float:left;
+}
+
+.five-hori-head{
+
+    width: 100%;
+    height: 15%;
+    font-family: serif;
+    color: #b5b1b1;
+    font-size: 17px;
+
+}
+
+.five-hori-mid{
+    width: 100%;
+    height: 25%;
+    
+
+}
+
+.five-hori-bottom{
+
+    width: 100%;
+    height: 35%;
+
+
+}
+.fblogo{
+    height: 100%;
+    width: 24%;
+
+    float: left;
+
+    background-image: url(fbc.webp);
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+
+.instalogo{
+    height: 100%;
+    width: 24%;
+    float: left;
+
+    background-image: url(instac.jpg);
+    background-repeat: no-repeat;
+    background-size: 41px;
+}
+
+
+.twitterlogo{
+    height: 100%;
+    width: 24%;
+
+    float: left;
+
+    background-image: url(twitterc.png);
+    background-repeat: no-repeat;
+    background-size: 41px;
+}
+
+
+.ytlogo{
+    height: 100%;
+    width: 24%;
+    float: left;
+    background-image: url(ytc.jpg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    margin-top: 0px;
+
+}
+.footerthree{
+    color: rgb(133, 133, 133);
+    float: left;
+}
+
+#date{
+    float: left;
+
+}
+#name{
+    float: left;
+}
+#Responsible{
+    float: left;
+}
+.arrow{
+    border-radius: 50%;
+    background-color: red;
+    border-width: thin;
+    color: white;
+    font-size: large;
+}
+.arrow:hover{
+    background-color: rgb(135, 6, 6);
+}
